@@ -1,0 +1,29 @@
+run on tinker
+
+App\Models\Grade::create([
+  'name' => 'Logan Seargeant',
+  'score_quiz' => 75,
+  'score_assignment' => 75,
+  'score_absence' => 75,
+  'score_practice' => 75,
+  'score_exam' => 75,
+  'grade_quiz' => 'C',
+  'grade_assignment' => 'C',
+  'grade_absence' => 'C',
+  'grade_practice' => 'C',
+  'grade_exam' => 'C',
+])
+
+App\Models\Grade::create([
+  'name' => 'IShowSpeed',
+  'score_quiz' => 0,
+  'score_assignment' => 0,
+  'score_absence' => 0,
+  'score_practice' => 0,
+  'score_exam' => 0,
+  'grade_quiz' => 'D',
+  'grade_assignment' => 'D',
+  'grade_absence' => 'D',
+  'grade_practice' => 'D',
+  'grade_exam' => 'D',
+])
